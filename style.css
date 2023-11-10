@@ -1,0 +1,129 @@
+ @font-face {
+    font-family: Roboto Slab;
+    src: url(Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+
+.comeco{
+ font-family: 'Roboto Slab';
+ font-size: 20px;
+  text-align: center;
+ margin-right: 600px;
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #91a9f1;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.golfinho {
+    height: 200px;
+    margin-left: 350px;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+
+.resumo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.resumo span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.novoItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.divDesc,
+.divValor,
+.divTipo {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.divTipo {
+    flex: 2;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button#btnNovo {
+    background-color: #91a9f1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #91a9f1;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.columnValor, .columnTipo, .columnAcao {
+    text-align: center;
+}
+
